@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "BTC_USD",
+  "granularity": "M1",
+  "chunk_start": "2017-02-01",
+  "chunk_end": "2017-02-28",
+  "parquet_file": "OANDA_BTCUSD_Bitcoin_1_2017-02-01_to_2017-02-28.parquet",
+  "data_file": "OANDA_BTCUSD_Bitcoin_1_2017-02-01_to_2017-02-28.parquet",
+  "row_count": 25756,
+  "first_candle": {
+    "time": 1485907200,
+    "Time": "2017-02-01T00:00:00.000000000Z",
+    "open": 971.2,
+    "high": 971.2,
+    "low": 970.1,
+    "close": 970.1,
+    "volume": 17
+  },
+  "last_candle": {
+    "time": 1488171540,
+    "Time": "2017-02-27T04:59:00.000000000Z",
+    "open": 1187.9,
+    "high": 1187.9,
+    "low": 1187.8,
+    "close": 1187.8,
+    "volume": 25
+  },
+  "csv_file": "OANDA_BTCUSD_Bitcoin_1_2017-02-01_to_2017-02-28.parquet",
+  "csv_row_count": 25756,
+  "csv_first_candle": {
+    "time": 1485907200,
+    "Time": "2017-02-01T00:00:00.000000000Z",
+    "open": 971.2,
+    "high": 971.2,
+    "low": 970.1,
+    "close": 970.1,
+    "volume": 17
+  },
+  "csv_last_candle": {
+    "time": 1488171540,
+    "Time": "2017-02-27T04:59:00.000000000Z",
+    "open": 1187.9,
+    "high": 1187.9,
+    "low": 1187.8,
+    "close": 1187.8,
+    "volume": 25
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T21:59:44.000000000Z",
+  "generated_at": "2026-10-15T21:59:44.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1135,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2017-01-31T01:01:00Z",
+        "to": "2017-02-03T12:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-03T12:21:00Z",
+        "to": "2017-02-06T23:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-06T23:41:00Z",
+        "to": "2017-02-10T11:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-10T11:01:00Z",
+        "to": "2017-02-13T22:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-13T22:21:00Z",
+        "to": "2017-02-17T09:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-17T09:41:00Z",
+        "to": "2017-02-20T21:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-20T21:01:00Z",
+        "to": "2017-02-24T08:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-24T08:21:00Z",
+        "to": "2017-02-27T19:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2017-02-27T19:41:00Z",
+        "to": "2017-03-03T07:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

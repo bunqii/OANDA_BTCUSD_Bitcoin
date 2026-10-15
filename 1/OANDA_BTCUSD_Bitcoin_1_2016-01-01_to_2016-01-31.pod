@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "BTC_USD",
+  "granularity": "M1",
+  "chunk_start": "2016-01-01",
+  "chunk_end": "2016-01-31",
+  "parquet_file": "OANDA_BTCUSD_Bitcoin_1_2016-01-01_to_2016-01-31.parquet",
+  "data_file": "OANDA_BTCUSD_Bitcoin_1_2016-01-01_to_2016-01-31.parquet",
+  "row_count": 41002,
+  "first_candle": {
+    "time": 1451624460,
+    "Time": "2016-01-01T05:01:00.000000000Z",
+    "open": 437.2,
+    "high": 437.2,
+    "low": 437.0,
+    "close": 437.0,
+    "volume": 23
+  },
+  "last_candle": {
+    "time": 1454284740,
+    "Time": "2016-01-31T23:59:00.000000000Z",
+    "open": 368.2,
+    "high": 368.3,
+    "low": 368.2,
+    "close": 368.2,
+    "volume": 33
+  },
+  "csv_file": "OANDA_BTCUSD_Bitcoin_1_2016-01-01_to_2016-01-31.parquet",
+  "csv_row_count": 41002,
+  "csv_first_candle": {
+    "time": 1451624460,
+    "Time": "2016-01-01T05:01:00.000000000Z",
+    "open": 437.2,
+    "high": 437.2,
+    "low": 437.0,
+    "close": 437.0,
+    "volume": 23
+  },
+  "csv_last_candle": {
+    "time": 1454284740,
+    "Time": "2016-01-31T23:59:00.000000000Z",
+    "open": 368.2,
+    "high": 368.3,
+    "low": 368.2,
+    "close": 368.2,
+    "volume": 33
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T21:59:41.000000000Z",
+  "generated_at": "2026-10-15T21:59:41.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1135,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2016-01-01T05:01:00Z",
+        "to": "2016-01-04T16:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-04T16:21:00Z",
+        "to": "2016-01-08T03:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-08T03:41:00Z",
+        "to": "2016-01-11T15:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-11T15:01:00Z",
+        "to": "2016-01-15T02:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-15T02:21:00Z",
+        "to": "2016-01-18T13:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-18T13:41:00Z",
+        "to": "2016-01-22T01:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-22T01:01:00Z",
+        "to": "2016-01-25T12:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-25T12:21:00Z",
+        "to": "2016-01-28T23:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-28T23:41:00Z",
+        "to": "2016-02-01T11:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

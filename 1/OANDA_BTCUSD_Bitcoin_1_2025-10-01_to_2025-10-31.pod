@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "BTC_USD",
+  "granularity": "M1",
+  "chunk_start": "2025-10-01",
+  "chunk_end": "2025-10-31",
+  "parquet_file": "OANDA_BTCUSD_Bitcoin_1_2025-10-01_to_2025-10-31.parquet",
+  "data_file": "OANDA_BTCUSD_Bitcoin_1_2025-10-01_to_2025-10-31.parquet",
+  "row_count": 32852,
+  "first_candle": {
+    "time": 1759276800,
+    "Time": "2025-10-01T00:00:00.000000000Z",
+    "open": 114067.0,
+    "high": 114130.0,
+    "low": 114067.0,
+    "close": 114116.0,
+    "volume": 51
+  },
+  "last_candle": {
+    "time": 1761944340,
+    "Time": "2025-10-31T20:59:00.000000000Z",
+    "open": 109410.0,
+    "high": 109410.2,
+    "low": 109406.0,
+    "close": 109406.0,
+    "volume": 5
+  },
+  "csv_file": "OANDA_BTCUSD_Bitcoin_1_2025-10-01_to_2025-10-31.parquet",
+  "csv_row_count": 32852,
+  "csv_first_candle": {
+    "time": 1759276800,
+    "Time": "2025-10-01T00:00:00.000000000Z",
+    "open": 114067.0,
+    "high": 114130.0,
+    "low": 114067.0,
+    "close": 114116.0,
+    "volume": 51
+  },
+  "csv_last_candle": {
+    "time": 1761944340,
+    "Time": "2025-10-31T20:59:00.000000000Z",
+    "open": 109410.0,
+    "high": 109410.2,
+    "low": 109406.0,
+    "close": 109406.0,
+    "volume": 5
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T22:00:14.000000000Z",
+  "generated_at": "2026-10-15T22:00:14.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1135,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2025-09-29T05:41:00Z",
+        "to": "2025-10-02T17:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-02T17:01:00Z",
+        "to": "2025-10-06T04:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-06T04:21:00Z",
+        "to": "2025-10-09T15:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-09T15:41:00Z",
+        "to": "2025-10-13T03:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-13T03:01:00Z",
+        "to": "2025-10-16T14:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-16T14:21:00Z",
+        "to": "2025-10-20T01:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-20T01:41:00Z",
+        "to": "2025-10-23T13:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-23T13:01:00Z",
+        "to": "2025-10-27T00:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-27T00:21:00Z",
+        "to": "2025-10-30T11:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-10-30T11:41:00Z",
+        "to": "2025-11-02T23:01:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
