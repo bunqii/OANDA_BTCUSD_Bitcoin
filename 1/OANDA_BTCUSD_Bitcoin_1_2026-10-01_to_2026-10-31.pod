@@ -6,7 +6,7 @@
   "chunk_end": "2026-10-31",
   "parquet_file": "OANDA_BTCUSD_Bitcoin_1_2026-10-01_to_2026-10-31.parquet",
   "data_file": "OANDA_BTCUSD_Bitcoin_1_2026-10-01_to_2026-10-31.parquet",
-  "row_count": 15675,
+  "row_count": 19109,
   "first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 89
   },
   "last_candle": {
-    "time": 1792101480,
-    "Time": "2026-10-15T21:58:00.000000000Z",
-    "open": 82328.5,
-    "high": 82352.5,
-    "low": 82316.0,
-    "close": 82320.5,
-    "volume": 40
+    "time": 1792480800,
+    "Time": "2026-10-20T07:20:00.000000000Z",
+    "open": 81593.5,
+    "high": 81606.5,
+    "low": 81571.0,
+    "close": 81573.5,
+    "volume": 73
   },
   "csv_file": "OANDA_BTCUSD_Bitcoin_1_2026-10-01_to_2026-10-31.parquet",
-  "csv_row_count": 15675,
+  "csv_row_count": 19109,
   "csv_first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -37,20 +37,20 @@
     "volume": 89
   },
   "csv_last_candle": {
-    "time": 1792101480,
-    "Time": "2026-10-15T21:58:00.000000000Z",
-    "open": 82328.5,
-    "high": 82352.5,
-    "low": 82316.0,
-    "close": 82320.5,
-    "volume": 40
+    "time": 1792480800,
+    "Time": "2026-10-20T07:20:00.000000000Z",
+    "open": 81593.5,
+    "high": 81606.5,
+    "low": 81571.0,
+    "close": 81573.5,
+    "volume": 73
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-15T22:00:17.000000000Z",
-  "generated_at": "2026-10-15T22:00:17.000000000Z",
+  "verified_at": "2026-10-20T07:22:17.000000000Z",
+  "generated_at": "2026-10-20T07:22:17.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 1135,
-    "chunk_api_blocks": 5,
+    "total_api_blocks_in_run": 1137,
+    "chunk_api_blocks": 7,
     "chunk_permanent_errors": 0,
     "permanent_error_details": [],
     "all_block_outcomes": [
@@ -80,7 +80,19 @@
       },
       {
         "from": "2026-10-12T17:01:00Z",
-        "to": "2026-10-15T21:59:00Z",
+        "to": "2026-10-16T04:21:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-16T04:21:00Z",
+        "to": "2026-10-19T15:41:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-19T15:41:00Z",
+        "to": "2026-10-20T07:21:00Z",
         "code": 200,
         "msg": "OK"
       }
